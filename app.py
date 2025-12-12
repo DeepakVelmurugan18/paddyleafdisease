@@ -43,7 +43,6 @@ class Prediction(db.Model):
     def __repr__(self):
         return f"<Prediction {self.id} {self.image_filename} {self.predicted_class} {self.confidence:.3f}>"
 
-# Create DB/tables if not present (runs on app start)
 with app.app_context():
     db.create_all()
 
