@@ -10,7 +10,6 @@ from PIL import Image
 # NEW: database imports
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-
 # Initialize app
 app = Flask(__name__)
 
