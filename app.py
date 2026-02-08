@@ -13,14 +13,13 @@ from datetime import datetime
 # Initialize app
 app = Flask(__name__)
 
-# Paths
 UPLOAD_FOLDER = 'static/uploads/'
 GRAPH_FOLDER = 'static/graphs/'
 REPORT_FOLDER = 'reports/'
 MODEL_PATH = 'models/final_paddy_model.h5'
 
 # Ensure folders exist
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(UPLOAD_FOLDER, exist_ok=True
 os.makedirs(GRAPH_FOLDER, exist_ok=True)
 os.makedirs(REPORT_FOLDER, exist_ok=True)
 
