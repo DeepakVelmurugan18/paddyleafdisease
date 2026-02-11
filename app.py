@@ -12,7 +12,6 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 # Initialize app
 app = Flask(__name__)
-
 UPLOAD_FOLDER = 'static/uploads/'
 GRAPH_FOLDER = 'static/graphs/'
 REPORT_FOLDER = 'reports/'
